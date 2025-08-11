@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
       padding: 0;
       box-sizing: border-box;
     }
+
     body {
       font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
       display: flex;
@@ -19,6 +21,7 @@
       min-height: 100vh;
       background-color: #d2d4d8;
     }
+
     .window {
       width: 100%;
       max-width: 500px;
@@ -28,6 +31,7 @@
       overflow: hidden;
       position: relative;
     }
+
     .window-header {
       background-color: #843b62;
       padding: 0.6rem 1rem;
@@ -36,56 +40,75 @@
       justify-content: space-between;
       border-bottom: 2px solid #ddd;
     }
+
     .window-header .buttons {
       display: flex;
       gap: 0.4rem;
     }
+
     .window-header .buttons div {
       width: 12px;
       height: 12px;
       border-radius: 50%;
     }
-    .btn-close { background-color: #ffb997; }
-    .btn-minimize { background-color: #ffb997; }
-    .btn-maximize { background-color: #ffb997; }
+
+    .btn-close {
+      background-color: #ffb997;
+    }
+
+    .btn-minimize {
+      background-color: #ffb997;
+    }
+
+    .btn-maximize {
+      background-color: #ffb997;
+    }
+
     .title-bar {
       color: #333;
       font-size: 0.9rem;
       font-weight: bold;
     }
+
     .card {
       padding: 2rem;
       text-align: center;
     }
+
     .avatar {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       margin-bottom: 1rem;
     }
+
     h1 {
       font-size: 1.8rem;
       margin-bottom: 0.5rem;
       color: #43152d;
     }
+
     .title {
       font-size: 1.1rem;
       color: #666;
       margin-bottom: 1rem;
     }
+
     .bio {
       font-size: 0.9rem;
       color: #333;
       margin-bottom: 1.5rem;
     }
 
-    a{
+    a {
       text-decoration: none;
       color: #843b62;
     }
+
     a:hover {
       color: #43152d;
     }
+
     .socials a {
       text-decoration: none;
       color: #843b62;
@@ -93,9 +116,11 @@
       font-size: 2rem;
       transition: color 0.3s;
     }
+
     .socials a:hover {
       color: #43152d;
     }
+
     button {
       background: #ffb997;
       color: #fff;
@@ -105,6 +130,7 @@
       cursor: pointer;
       transition: background 0.3s;
     }
+
     button:hover {
       background: #ffb997;
     }
@@ -146,16 +172,29 @@
     }
 
     footer {
-        text-align: center;
-        background-color: #843b62;
+      text-align: center;
+      background-color: #843b62;
     }
-  
+
     footer a {
-        font-size: 9px; 
-        color: #ffffff;
+      font-size: 9px;
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 0 12px;
+      }
+
+      .window {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+      }
     }
   </style>
 </head>
+
 <body>
   <div class="window">
     <div class="window-header">
@@ -170,19 +209,19 @@
       <img src="card/izee.gif" alt="Your Name" class="avatar">
       <h1>Izon Falzo</h1>
       <p class="title">I-see Warisa Jaidee</p>
-        <p class="subtitle">Wellesley College | Harvard Griffin GSAS</p>
+      <p class="subtitle">Wellesley College | Harvard Griffin GSAS</p>
       <p class="bio"> TH/EN | Python | JavaScript | HTML
       </p>
-      
+
       <div class="socials">
         <a href="https://www.instagram.com/izonfalzo/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://github.com/IseeJ" target="_blank"><i class="fab fa-github"></i></a>
         <a href="mailto:izonfalzo@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
-      <a href="https://ko-fi.com/izonfalzo" target="_blank" >Support me on ko-fi</a>
-      
+      <a href="https://ko-fi.com/izonfalzo" target="_blank">Support me on ko-fi</a>
+
     </div>
-    
+
     <div class="app-button-container">
       <a href="https://iseej.github.io/CosmosPersona/" target="_blank" class="app-button">
         <img src="card/CP.png" alt="App Icon 2">
@@ -201,14 +240,15 @@
         <div class="app-text">Coming soon...</div>
       </a>
 
-      
-      
+
+
     </div>
-    
+
     <footer>
-        <a>&copy; 2024-2025 I-see Warisa Jaidee</a>
+      <a>&copy; 2025 I-see Warisa Jaidee</a>
     </footer>
   </div>
-  
+
 </body>
+
 </html>
