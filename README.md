@@ -5,7 +5,7 @@ https://iseej.github.io/Card/
 
 ## Rules
 
-Copyright &copy; 2025 I-see Warisa Jaidee
+Copyright &copy; 2024-2026 I-see Warisa Jaidee
 
 All Rights Reserved.
 
